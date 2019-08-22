@@ -23,7 +23,11 @@ end
 
 def printer(ppl)
   batch = batch_badge_creator(ppl)
+  room = assign_rooms(ppl)
   batch.each do |x|
     puts x
+  end
+  room.each do |y|
+    puts y
   end
 end
