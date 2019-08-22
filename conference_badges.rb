@@ -26,5 +26,4 @@ def printer(ppl)
   batch.each do |x|
     puts x
   end
-  end
 end
