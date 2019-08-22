@@ -25,6 +25,6 @@ def printer(ppl)
  ppl.each do |x|
   x.each do |y|
     puts y
-  
+  end
   end
 end
