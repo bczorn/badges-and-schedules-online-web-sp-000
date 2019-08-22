@@ -23,9 +23,8 @@ end
 
 def printer(ppl)
  ppl.each do |x|
-  puts batch_badge_creator(x)
- end
- ppl.each do|x|
-  puts assign_rooms(x)
+  x.each do |y|
+    puts y
+  
   end
 end
